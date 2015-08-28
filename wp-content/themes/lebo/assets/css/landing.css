@@ -1,0 +1,1206 @@
+.clear:before,
+.clear:after {
+  display: table;
+  content: " ";
+}
+
+.clear:after {
+  clear: both;
+}
+
+body.page-template-page-landing header aside,
+body.page-template-page-thank-you header aside {
+  max-width: none;
+}
+
+body.page-template-page-landing header .phone,
+body.page-template-page-thank-you header .phone {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+body.page-template-page-landing header .phone span,
+body.page-template-page-thank-you header .phone span {
+  color: #898989;
+  margin: 0;
+}
+
+body.page-template-page-landing header .phone span span,
+body.page-template-page-thank-you header .phone span span {
+  color: #97536c;
+  font-family: "AvantGarde_Demi", sans-serif;
+}
+
+body.page-template-page-landing .h1-wrap,
+body.page-template-page-thank-you .h1-wrap {
+  background-color: #97536c;
+}
+
+body.page-template-page-landing h1,
+body.page-template-page-thank-you h1 {
+  text-align: left;
+  background-color: #97536c;
+}
+
+body.page-template-page-landing h1.hb-page-title,
+body.page-template-page-thank-you h1.hb-page-title {
+  text-transform: none;
+  font: 50px/normal "AvantGarde_Book", sans-serif;
+}
+
+body.page-template-page-landing h1 sup,
+body.page-template-page-thank-you h1 sup {
+  font-size: 18px !important;
+}
+
+body.page-template-page-landing section.main,
+body.page-template-page-thank-you section.main {
+  padding-top: 0;
+}
+
+body.page-template-page-landing main > section > div,
+body.page-template-page-thank-you main > section > div {
+  padding: 0;
+}
+
+body.page-template-page-landing .sub-header,
+body.page-template-page-thank-you .sub-header {
+  padding-bottom: 50px;
+}
+
+body.page-template-page-landing main.lev2,
+body.page-template-page-thank-you main.lev2 {
+  padding-bottom: 50px;
+}
+
+body.page-template-page-landing .lev2 h2,
+body.page-template-page-thank-you .lev2 h2 {
+  font: 40px/normal "AvantGarde_Demi", sans-serif;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+body.page-template-page-landing .vid-buttons,
+body.page-template-page-thank-you .vid-buttons {
+  text-align: center;
+}
+
+body.page-template-page-landing .vid-buttons a,
+body.page-template-page-thank-you .vid-buttons a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+body.page-template-page-landing .vid-buttons a:hover,
+body.page-template-page-thank-you .vid-buttons a:hover {
+  text-decoration: none;
+}
+
+body.page-template-page-landing .vid-buttons a.active,
+body.page-template-page-thank-you .vid-buttons a.active {
+  background-color: #d0d0d0;
+  color: #97536c;
+}
+
+body.page-template-page-landing .vid-riff,
+body.page-template-page-thank-you .vid-riff {
+  background-color: #898989;
+  padding: 70px 60px 40px;
+  margin-top: -24px;
+}
+
+body.page-template-page-landing .vid-riff .landing-vid,
+body.page-template-page-thank-you .vid-riff .landing-vid {
+  margin-right: 20px;
+}
+
+body.page-template-page-landing .vid-riff .landing-vid.hidden,
+body.page-template-page-thank-you .vid-riff .landing-vid.hidden {
+  display: none;
+}
+
+body.page-template-page-landing .info,
+body.page-template-page-thank-you .info {
+  padding-left: 20px;
+}
+
+body.page-template-page-landing .info p,
+body.page-template-page-landing .info h4,
+body.page-template-page-thank-you .info p, body.page-template-page-thank-you .info h4 {
+  color: #fff;
+  line-height: normal;
+  margin: 0;
+}
+
+body.page-template-page-landing .info h4,
+body.page-template-page-thank-you .info h4 {
+  font: 22px/normal "AvantGarde_Demi", sans-serif;
+}
+
+body.page-template-page-landing .info h4 sup,
+body.page-template-page-thank-you .info h4 sup {
+  top: -9px;
+}
+
+body.page-template-page-landing .info p,
+body.page-template-page-thank-you .info p {
+  margin-top: 12px;
+}
+
+body.page-template-page-landing .page-content,
+body.page-template-page-thank-you .page-content {
+  padding: 0 32px;
+}
+
+body.page-template-page-landing .landing-vid,
+body.page-template-page-thank-you .landing-vid {
+  width: 60%;
+  float: left;
+  position: relative;
+  padding-bottom: 33.8%;
+  height: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+body.page-template-page-landing .landing-vid iframe,
+body.page-template-page-thank-you .landing-vid iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body.page-template-page-landing h2.schedule,
+body.page-template-page-thank-you h2.schedule {
+  height: 126px;
+  padding-top: 40px;
+  background-color: #fff;
+  position: relative;
+  z-index: 20;
+}
+
+body.page-template-page-landing #top-form,
+body.page-template-page-thank-you #top-form {
+  float: left;
+  width: 40%;
+  padding-left: 40px;
+}
+
+body.page-template-page-landing #top-form .form-wrap,
+body.page-template-page-thank-you #top-form .form-wrap {
+  border: 3px solid #97536c;
+  padding-bottom: 20px;
+}
+
+body.page-template-page-landing #top-form .form-wrap h2,
+body.page-template-page-thank-you #top-form .form-wrap h2 {
+  background-color: #97536c;
+  padding: 6px;
+  margin: 0;
+  color: #fff;
+  font: 26px/normal "AvantGarde_Demi", sans-serif;
+}
+
+body.page-template-page-landing #top-form .form-wrap p,
+body.page-template-page-thank-you #top-form .form-wrap p {
+  padding: 20px;
+  margin: 0;
+  color: #898989;
+  font: 17px/normal "AvantGarde_Book", sans-serif;
+  letter-spacing: 1px;
+}
+
+body.page-template-page-landing #top-form .form-wrap .af-form,
+body.page-template-page-thank-you #top-form .form-wrap .af-form {
+  max-width: none;
+}
+
+body.page-template-page-landing #top-form .form-wrap .af-form .af-body,
+body.page-template-page-thank-you #top-form .form-wrap .af-form .af-body {
+  padding: 0;
+}
+
+body.page-template-page-landing #top-form .form-wrap .af-form .af-element,
+body.page-template-page-thank-you #top-form .form-wrap .af-form .af-element {
+  width: 90%;
+  margin: 0 5%;
+  padding: 10px 0;
+}
+
+body.page-template-page-landing #top-form .form-wrap .af-form .af-element.buttonContainer,
+body.page-template-page-thank-you #top-form .form-wrap .af-form .af-element.buttonContainer {
+  text-align: left;
+}
+
+body.page-template-page-landing #top-form .form-wrap .af-form .af-element label,
+body.page-template-page-thank-you #top-form .form-wrap .af-form .af-element label {
+  display: none;
+}
+
+body.page-template-page-landing #top-form .form-wrap .af-form .af-element .af-textWrap,
+body.page-template-page-thank-you #top-form .form-wrap .af-form .af-element .af-textWrap {
+  float: none;
+  width: 100%;
+}
+
+body.page-template-page-landing #top-form .form-wrap .af-form .af-element .af-textWrap input.text,
+body.page-template-page-thank-you #top-form .form-wrap .af-form .af-element .af-textWrap input.text {
+  border: 1px solid #97536c;
+  height: 30px;
+  padding: 4px 10px !important;
+  font: 14px/normal "AvantGarde_Book", sans-serif;
+}
+
+body.page-template-page-landing #top-form .form-wrap .af-form .af-element .af-textWrap input.text:focus,
+body.page-template-page-thank-you #top-form .form-wrap .af-form .af-element .af-textWrap input.text:focus {
+  background-color: #fff !important;
+}
+
+body.page-template-page-landing #top-form .form-wrap .af-form .af-element input.submit,
+body.page-template-page-thank-you #top-form .form-wrap .af-form .af-element input.submit {
+  background-color: #97536c;
+  border: none;
+  outline: 0;
+  padding: 10px 20px;
+  font: 14px/normal "AvantGarde_Book", sans-serif;
+  letter-spacing: 1px;
+}
+
+body.page-template-page-landing .mid-riff,
+body.page-template-page-thank-you .mid-riff {
+  height: 226px;
+  background: url("../images/brushstroke.jpg") center center no-repeat;
+}
+
+body.page-template-page-landing .mid-riff h3,
+body.page-template-page-thank-you .mid-riff h3 {
+  height: 60px;
+  margin: 0;
+  color: #fff;
+  font: 40px/64px "AvantGarde_Demi", sans-serif;
+  text-align: center;
+  background-color: #898989;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+body.page-template-page-landing .mid-riff h3 sup,
+body.page-template-page-thank-you .mid-riff h3 sup {
+  font: 20px/normal "AvantGarde_Book", sans-serif;
+  top: -0.7em;
+}
+
+body.page-template-page-landing .infront,
+body.page-template-page-thank-you .infront {
+  position: relative;
+  z-index: 100;
+}
+
+body.page-template-page-landing .bullets,
+body.page-template-page-thank-you .bullets {
+  float: left;
+  font: 18px/30px "AvantGarde_Demi", sans-serif;
+  color: #898989;
+  margin-top: -40px;
+  max-width: 350px;
+}
+
+body.page-template-page-landing #landing-gallery,
+body.page-template-page-thank-you #landing-gallery {
+  width: 600px;
+  float: right;
+}
+
+body.page-template-page-landing #landing-gallery .item-landing div,
+body.page-template-page-thank-you #landing-gallery .item-landing div {
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 48%;
+}
+
+body.page-template-page-landing #landing-gallery .item-landing div.post-landing,
+body.page-template-page-thank-you #landing-gallery .item-landing div.post-landing {
+  margin-left: 4%;
+}
+
+body.page-template-page-landing #landing-gallery .item-landing span,
+body.page-template-page-thank-you #landing-gallery .item-landing span {
+  display: block;
+  font-size: 24px;
+  color: #fff;
+  height: 38px;
+  line-height: 46px;
+  background: url("../images/bend.png") no-repeat;
+  background-position: center top;
+}
+
+body.page-template-page-landing #landing-gallery .item-landing img,
+body.page-template-page-thank-you #landing-gallery .item-landing img {
+  border: 9px solid #97536c;
+}
+
+body.page-template-page-landing #landing-gallery .owl-buttons,
+body.page-template-page-landing #landing-gallery .owl-controls,
+body.page-template-page-thank-you #landing-gallery .owl-buttons, body.page-template-page-thank-you #landing-gallery .owl-controls {
+  height: 0;
+  margin: 0;
+}
+
+body.page-template-page-landing #landing-gallery .owl-buttons div,
+body.page-template-page-thank-you #landing-gallery .owl-buttons div {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+}
+
+body.page-template-page-landing #landing-gallery .owl-buttons div.owl-prev,
+body.page-template-page-thank-you #landing-gallery .owl-buttons div.owl-prev {
+  left: -22px;
+}
+
+body.page-template-page-landing #landing-gallery .owl-buttons div.owl-next,
+body.page-template-page-thank-you #landing-gallery .owl-buttons div.owl-next {
+  right: -32px;
+}
+
+body.page-template-page-landing #testimonial,
+body.page-template-page-thank-you #testimonial {
+  clear: both;
+  width: 100%;
+  text-align: center;
+  background-color: #97536c;
+  position: relative;
+  padding: 90px;
+}
+
+body.page-template-page-landing #testimonial *,
+body.page-template-page-thank-you #testimonial * {
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+body.page-template-page-landing #testimonial h3,
+body.page-template-page-thank-you #testimonial h3 {
+  font: 40px/normal "AvantGarde_Demi", sans-serif;
+}
+
+body.page-template-page-landing #testimonial h3 sup,
+body.page-template-page-thank-you #testimonial h3 sup {
+  font: 20px/normal "AvantGarde_Book", sans-serif;
+  top: -0.7em;
+}
+
+body.page-template-page-landing #testimonial em,
+body.page-template-page-thank-you #testimonial em {
+  font: italic 30px/normal "AvantGarde_Bold", sans-serif;
+  margin: 70px 0 30px;
+  display: block;
+}
+
+body.page-template-page-landing #testimonial p,
+body.page-template-page-thank-you #testimonial p {
+  font: 20px/30px "AvantGarde_Book", sans-serif;
+}
+
+body.page-template-page-landing #testimonial h5,
+body.page-template-page-thank-you #testimonial h5 {
+  font: 20px/normal "AvantGarde_Bold", sans-serif;
+}
+
+body.page-template-page-landing #testimonial:before,
+body.page-template-page-thank-you #testimonial:before {
+  content: '';
+  background: url("../images/bend-big.png") no-repeat;
+  background-position: center top;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: -50px;
+}
+
+body.page-template-page-landing #call-now,
+body.page-template-page-thank-you #call-now {
+  min-height: 320px;
+  background: url("../images/top-splash.png") no-repeat;
+  overflow: hidden;
+}
+
+body.page-template-page-landing #call-now > div,
+body.page-template-page-thank-you #call-now > div {
+  float: left;
+}
+
+body.page-template-page-landing #call-now > div img,
+body.page-template-page-thank-you #call-now > div img {
+  width: 533px;
+  height: 533px;
+}
+
+body.page-template-page-landing #call-now > div:first-child,
+body.page-template-page-thank-you #call-now > div:first-child {
+  margin: -50px 0 0 -190px;
+}
+
+body.page-template-page-landing #call-now > div + div,
+body.page-template-page-thank-you #call-now > div + div {
+  padding: 80px 80px 80px 50px;
+  float: left;
+  width: 65%;
+}
+
+body.page-template-page-landing #call-now br,
+body.page-template-page-thank-you #call-now br {
+  display: none;
+}
+
+body.page-template-page-landing #call-now h3,
+body.page-template-page-thank-you #call-now h3 {
+  margin-top: 0;
+  font: 40px/normal "AvantGarde_Bold", sans-serif;
+}
+
+body.page-template-page-landing #call-now h3 sup,
+body.page-template-page-thank-you #call-now h3 sup {
+  font: 20px/normal "AvantGarde_Book", sans-serif;
+  top: -0.7em;
+}
+
+body.page-template-page-landing #call-now p,
+body.page-template-page-thank-you #call-now p {
+  font: 20px/30px "AvantGarde_Book", sans-serif;
+}
+
+body.page-template-page-landing #call-now h4,
+body.page-template-page-thank-you #call-now h4 {
+  margin-top: 0;
+  font: 30px/normal "AvantGarde_Demi", sans-serif;
+}
+
+body.page-template-page-landing #call-now h4 span,
+body.page-template-page-thank-you #call-now h4 span {
+  white-space: nowrap;
+}
+
+body.page-template-page-landing #call-now .af-form,
+body.page-template-page-thank-you #call-now .af-form {
+  max-width: none;
+}
+
+body.page-template-page-landing #call-now .af-form .af-element,
+body.page-template-page-thank-you #call-now .af-form .af-element {
+  width: 46%;
+  margin: 0 0 14px 3%;
+  padding: 0;
+  float: left;
+}
+
+body.page-template-page-landing #call-now .af-form .af-element label,
+body.page-template-page-thank-you #call-now .af-form .af-element label {
+  display: none;
+}
+
+body.page-template-page-landing #call-now .af-form .af-element.buttonContainer,
+body.page-template-page-thank-you #call-now .af-form .af-element.buttonContainer {
+  text-align: right;
+}
+
+body.page-template-page-landing #call-now .af-form .af-element .af-textWrap,
+body.page-template-page-thank-you #call-now .af-form .af-element .af-textWrap {
+  float: none;
+  width: 100%;
+}
+
+body.page-template-page-landing #call-now .af-form .af-element .af-textWrap input.text,
+body.page-template-page-thank-you #call-now .af-form .af-element .af-textWrap input.text {
+  border: 1px solid #97536c;
+  height: 30px;
+  padding: 4px 10px !important;
+  font: 14px/normal "AvantGarde_Book", sans-serif;
+}
+
+body.page-template-page-landing #call-now .af-form .af-element .af-textWrap input.text:focus,
+body.page-template-page-thank-you #call-now .af-form .af-element .af-textWrap input.text:focus {
+  background-color: #fff !important;
+}
+
+body.page-template-page-landing #call-now .af-form .af-element input.submit,
+body.page-template-page-thank-you #call-now .af-form .af-element input.submit {
+  background-color: #97536c;
+  border: none;
+  outline: 0;
+  padding: 7px 14px;
+  font: 14px/normal "AvantGarde_Book", sans-serif;
+  letter-spacing: 1px;
+}
+
+body.page-template-page-landing .about-riff h3,
+body.page-template-page-thank-you .about-riff h3 {
+  height: 60px;
+  margin: 0;
+  color: #fff;
+  font: 40px/64px "AvantGarde_Demi", sans-serif;
+  text-align: center;
+  background-color: #898989;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+body.page-template-page-landing .about-riff h3 sup,
+body.page-template-page-thank-you .about-riff h3 sup {
+  font: 20px/normal "AvantGarde_Book", sans-serif;
+  top: -0.7em;
+}
+
+body.page-template-page-landing #about,
+body.page-template-page-thank-you #about {
+  margin-bottom: 50px;
+  padding: 30px 70px;
+}
+
+body.page-template-page-landing #about .circle,
+body.page-template-page-thank-you #about .circle {
+  float: left;
+  margin: 20px 40px 0 0;
+  width: 244px;
+  height: 244px;
+  border-radius: 122px;
+  overflow: hidden;
+  border: 8px solid #97536c;
+  background: url("/lebo/wp-content/uploads/2015/05/hillary-heather-1b.jpg") -9px -9px no-repeat;
+}
+
+body.page-template-page-landing #about p,
+body.page-template-page-thank-you #about p {
+  font: 17px/27px "AvantGarde_Book", sans-serif;
+}
+
+body.page-template-page-landing #about .lebo-location i,
+body.page-template-page-landing #about .lebo-location div,
+body.page-template-page-thank-you #about .lebo-location i, body.page-template-page-thank-you #about .lebo-location div {
+  float: left;
+}
+
+body.page-template-page-landing #about .lebo-location i,
+body.page-template-page-thank-you #about .lebo-location i {
+  font-size: 52px;
+  color: #898989;
+  margin: 0 10px 0 -20px;
+}
+
+body.page-template-page-landing #about .lebo-location p,
+body.page-template-page-thank-you #about .lebo-location p {
+  color: #97536c;
+  margin: 0 0 7px 0;
+  font: 14px/normal "AvantGarde_Book", sans-serif;
+}
+
+body.page-template-page-landing #about .lebo-location p a,
+body.page-template-page-thank-you #about .lebo-location p a {
+  font: 14px/normal "AvantGarde_Demi", sans-serif;
+}
+
+body.page-template-page-landing #about .lebo-location + .lebo-location i,
+body.page-template-page-thank-you #about .lebo-location + .lebo-location i {
+  margin-left: 30px;
+}
+
+body.page-template-page-landing footer,
+body.page-template-page-thank-you footer {
+  min-height: 200px;
+  max-width: 1102px;
+  margin: -50px auto 0;
+}
+
+body.page-template-page-landing footer span img,
+body.page-template-page-thank-you footer span img {
+  display: inline;
+  margin: 120px 30px 0 0;
+  float: right;
+}
+
+body.page-template-page-landing #thoughts,
+body.page-template-page-thank-you #thoughts {
+  background-color: #97536c;
+  padding: 40px 40px 80px;
+  margin: -40px 0 -50px 0;
+}
+
+body.page-template-page-landing #thoughts p,
+body.page-template-page-landing #thoughts h5,
+body.page-template-page-thank-you #thoughts p, body.page-template-page-thank-you #thoughts h5 {
+  color: #fff;
+  margin: 0;
+}
+
+body.page-template-page-landing #thoughts h5,
+body.page-template-page-thank-you #thoughts h5 {
+  font: 30px/normal "AvantGarde_Bold", sans-serif;
+  padding: 0;
+}
+
+body.page-template-page-landing #bottom-form,
+body.page-template-page-thank-you #bottom-form {
+  float: left;
+  width: 65%;
+  text-align: center;
+  margin: 0;
+  padding: 50px 0 0 30px;
+}
+
+body.page-template-page-landing #bottom-form .form-wrap,
+body.page-template-page-thank-you #bottom-form .form-wrap {
+  border: 1px solid #97536c;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+body.page-template-page-landing #bottom-form h2,
+body.page-template-page-thank-you #bottom-form h2 {
+  font: 40px/normal "AvantGarde_Demi", sans-serif;
+}
+
+body.page-template-page-landing #bottom-form p,
+body.page-template-page-thank-you #bottom-form p {
+  padding: 0 15px;
+}
+
+body.page-template-page-landing #bottom-form p,
+body.page-template-page-landing #bottom-form p span,
+body.page-template-page-thank-you #bottom-form p, body.page-template-page-thank-you #bottom-form p span {
+  text-align: center;
+  color: #898989;
+  font: 17px/normal "AvantGarde_Book", sans-serif;
+  letter-spacing: 1px;
+}
+
+body.page-template-page-landing #bottom-form p span,
+body.page-template-page-thank-you #bottom-form p span {
+  font: 17px/normal "AvantGarde_Demi", sans-serif;
+}
+
+body.page-template-page-landing #bottom-form .af-form,
+body.page-template-page-thank-you #bottom-form .af-form {
+  max-width: none;
+}
+
+body.page-template-page-landing #bottom-form .af-form .af-element,
+body.page-template-page-thank-you #bottom-form .af-form .af-element {
+  width: 35%;
+  margin: 0 0 0 4%;
+  padding: 0;
+  float: left;
+}
+
+body.page-template-page-landing #bottom-form .af-form .af-element label,
+body.page-template-page-thank-you #bottom-form .af-form .af-element label {
+  display: none;
+}
+
+body.page-template-page-landing #bottom-form .af-form .af-element.buttonContainer,
+body.page-template-page-thank-you #bottom-form .af-form .af-element.buttonContainer {
+  width: 14%;
+}
+
+body.page-template-page-landing #bottom-form .af-form .af-element .af-textWrap,
+body.page-template-page-thank-you #bottom-form .af-form .af-element .af-textWrap {
+  float: none;
+  width: 100%;
+}
+
+body.page-template-page-landing #bottom-form .af-form .af-element .af-textWrap input.text,
+body.page-template-page-thank-you #bottom-form .af-form .af-element .af-textWrap input.text {
+  border: 1px solid #97536c;
+  height: 30px;
+  padding: 4px 10px !important;
+  font: 14px/normal "AvantGarde_Book", sans-serif;
+}
+
+body.page-template-page-landing #bottom-form .af-form .af-element .af-textWrap input.text:focus,
+body.page-template-page-thank-you #bottom-form .af-form .af-element .af-textWrap input.text:focus {
+  background-color: #fff !important;
+}
+
+body.page-template-page-landing #bottom-form .af-form .af-element input.submit,
+body.page-template-page-thank-you #bottom-form .af-form .af-element input.submit {
+  background-color: #97536c;
+  border: none;
+  outline: 0;
+  padding: 7px 14px;
+  font: 14px/normal "AvantGarde_Book", sans-serif;
+  letter-spacing: 1px;
+}
+
+body.page-template-page-landing footer.lev2foot #bottom-form h2,
+body.page-template-page-thank-you footer.lev2foot #bottom-form h2 {
+  text-transform: none;
+  text-align: left;
+  padding: 15px 15px 0;
+}
+
+body.page-template-page-landing footer.lev2foot #bottom-form div,
+body.page-template-page-thank-you footer.lev2foot #bottom-form div {
+  float: left;
+}
+
+body.page-template-page-landing footer.lev2foot #bottom-form div p,
+body.page-template-page-thank-you footer.lev2foot #bottom-form div p {
+  text-align: left;
+  color: #97536c;
+  font: 15px/normal "AvantGarde_Book", sans-serif;
+}
+
+body.page-template-page-landing footer.lev2foot #bottom-form div p span,
+body.page-template-page-thank-you footer.lev2foot #bottom-form div p span {
+  color: #898989;
+  font: 17px/normal "AvantGarde_Book", sans-serif;
+}
+
+body.page-template-page-landing footer.lev2foot span img,
+body.page-template-page-thank-you footer.lev2foot span img {
+  margin: 80px 30px 0 0;
+}
+
+body.page-template-page-landing .copyright,
+body.page-template-page-thank-you .copyright {
+  clear: both;
+  background-color: #97536c;
+  height: 50px;
+}
+
+body.page-template-page-landing .copyright p,
+body.page-template-page-thank-you .copyright p {
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+
+body.page-template-page-thank-you article {
+  text-align: center;
+}
+
+body.page-template-page-thank-you article section h2 {
+  font: 40px/normal "AvantGarde_Demi", sans-serif;
+  margin: 30px 0;
+}
+
+body.page-template-page-thank-you article section p {
+  font: 20px/30px "AvantGarde_Demi", sans-serif;
+  text-align: center;
+  padding: 0 60px;
+}
+
+body.page-template-page-thank-you article section a.button {
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+
+body.page-template-page-thank-you article section a.button:hover {
+  text-decoration: none;
+}
+
+body.page-template-page-thank-you article #awards {
+  background: url("/lebo/wp-content/uploads/2015/06/bg-halfcirc-f.png") no-repeat;
+  margin-top: -100px;
+  padding-top: 220px;
+  text-align: center;
+}
+
+body.page-template-page-thank-you article #awards p {
+  font: 17px/24px "AvantGarde_Book", sans-serif;
+  letter-spacing: 1px;
+  padding: 0 150px;
+  text-align: center;
+}
+
+body.page-template-page-thank-you article #awards img {
+  display: inline;
+  margin: 0 20px 40px;
+}
+
+body.page-template-page-thank-you article #about p.thank-you {
+  padding-top: 30px;
+}
+
+body.page-template-page-thank-you footer span img {
+  margin: 60px 30px 0 0;
+}
+
+body.page-template-page-thank-you #bottom-form h3 {
+  text-align: left;
+  margin: 30px 0 0 0;
+}
+
+body.page-template-page-thank-you #bottom-form h3 a {
+  text-transform: none;
+  font: 40px/normal "AvantGarde_Demi", sans-serif;
+}
+
+body.page-template-page-thank-you #bottom-form p {
+  text-align: left;
+  width: 500px;
+}
+
+body.page-template-page-thank-you .about-riff h3 {
+  position: static;
+  top: 0;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  margin-bottom: 20px;
+}
+
+/*
+          ___  __             __        ___  __     ___  __  
+    |\/| |__  |  \ |  /\     /  \ |  | |__  |__) | |__  /__` 
+    |  | |___ |__/ | /~~\    \__X \__/ |___ |  \ | |___ .__/ 
+                                                          
+*/
+@media only screen and (max-width: 1120px) {
+  body.page-template-page-landing header,
+  body.page-template-page-thank-you header {
+    padding: 10px 10px 0;
+  }
+  body.page-template-page-landing h1,
+  body.page-template-page-thank-you h1 {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  body.page-template-page-landing .bullets,
+  body.page-template-page-thank-you .bullets {
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 500px;
+  }
+  body.page-template-page-landing #landing-gallery,
+  body.page-template-page-thank-you #landing-gallery {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  body.page-template-page-landing #call-now > div img,
+  body.page-template-page-thank-you #call-now > div img {
+    width: 433px;
+    height: 433px;
+  }
+  body.page-template-page-landing #call-now > div:first-child,
+  body.page-template-page-thank-you #call-now > div:first-child {
+    margin: -40px 0 0 -154px;
+  }
+  body.page-template-page-landing #call-now > div + div,
+  body.page-template-page-thank-you #call-now > div + div {
+    padding: 30px 20px;
+    width: 62%;
+  }
+  body.page-template-page-landing #about,
+  body.page-template-page-thank-you #about {
+    padding: 15px 35px;
+  }
+  body.page-template-page-landing footer,
+  body.page-template-page-thank-you footer {
+    min-height: 0;
+  }
+  body.page-template-page-landing footer span img,
+  body.page-template-page-thank-you footer span img {
+    display: block;
+    margin: 0 auto 30px;
+    float: none;
+  }
+  body.page-template-page-landing #bottom-form,
+  body.page-template-page-thank-you #bottom-form {
+    float: none;
+    width: 100%;
+    padding: 50px 30px 0;
+  }
+  body.page-template-page-landing footer.lev2foot span img,
+  body.page-template-page-thank-you footer.lev2foot span img {
+    margin: 0 0 20px 40px;
+  }
+  body.page-template-page-thank-you #bottom-form h3, body.page-template-page-thank-you #bottom-form p {
+    text-align: center;
+    width: 100%;
+  }
+  body.page-template-page-thank-you #bottom-form p {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 805px) {
+  body.page-template-page-landing h2.schedule,
+  body.page-template-page-thank-you h2.schedule {
+    height: 93px;
+    padding-top: 30px;
+    font-size: 30px;
+  }
+  body.page-template-page-landing #about .lebo-location,
+  body.page-template-page-thank-you #about .lebo-location {
+    clear: left;
+  }
+  body.page-template-page-landing #about .lebo-location i,
+  body.page-template-page-thank-you #about .lebo-location i {
+    margin: 0 10px 0 0;
+  }
+  body.page-template-page-landing #about .lebo-location + .lebo-location,
+  body.page-template-page-thank-you #about .lebo-location + .lebo-location {
+    clear: none;
+  }
+  body.page-template-page-landing #about .circle,
+  body.page-template-page-thank-you #about .circle {
+    margin: 0 40px 40px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body.page-template-page-landing div#content,
+  body.page-template-page-thank-you div#content {
+    padding-bottom: 0;
+  }
+  body.page-template-page-landing header .phone,
+  body.page-template-page-thank-you header .phone {
+    font-size: 36px;
+  }
+  body.page-template-page-landing .landing-vid,
+  body.page-template-page-thank-you .landing-vid {
+    float: none;
+    width: 100%;
+    padding-bottom: 56%;
+  }
+  body.page-template-page-landing #top-form,
+  body.page-template-page-thank-you #top-form {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  body.page-template-page-landing #testimonial,
+  body.page-template-page-thank-you #testimonial {
+    padding: 45px;
+  }
+  body.page-template-page-landing #testimonial em,
+  body.page-template-page-thank-you #testimonial em {
+    margin: 35px 0 15px;
+  }
+  body.page-template-page-landing #call-now > div img,
+  body.page-template-page-thank-you #call-now > div img {
+    width: 216px;
+    height: 216px;
+    position: absolute;
+  }
+  body.page-template-page-landing #call-now > div:first-child,
+  body.page-template-page-thank-you #call-now > div:first-child {
+    margin: -20px 0 0 -77px;
+  }
+  body.page-template-page-landing #call-now > div + div,
+  body.page-template-page-thank-you #call-now > div + div {
+    padding: 30px 20px 30px 160px;
+    width: auto;
+  }
+  body.page-template-page-landing #about,
+  body.page-template-page-thank-you #about {
+    padding: 0 20px 20px 20px;
+  }
+  body.page-template-page-landing #about .circle,
+  body.page-template-page-thank-you #about .circle {
+    margin: 0 20px 40px 0;
+  }
+  body.page-template-page-landing #bottom-form,
+  body.page-template-page-thank-you #bottom-form {
+    padding: 20px 30px 0;
+  }
+  body.page-template-page-landing .lev2 h2,
+  body.page-template-page-thank-you .lev2 h2 {
+    font-size: 32px;
+  }
+  body.page-template-page-landing .info,
+  body.page-template-page-thank-you .info {
+    padding: 20px 0 0 0;
+  }
+  body.page-template-page-landing article #awards p,
+  body.page-template-page-thank-you article #awards p {
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  body.page-template-page-landing h1.hb-page-title,
+  body.page-template-page-thank-you h1.hb-page-title {
+    font-size: 40px;
+    text-align: center;
+  }
+  body.page-template-page-landing h1.hb-page-title sup,
+  body.page-template-page-thank-you h1.hb-page-title sup {
+    font-size: 15px;
+    top: -0.7em;
+  }
+  body.page-template-page-landing .bullets,
+  body.page-template-page-thank-you .bullets {
+    float: none;
+    margin: -50px 0 20px;
+  }
+  body.page-template-page-landing #landing-gallery,
+  body.page-template-page-thank-you #landing-gallery {
+    float: none;
+    width: 100%;
+  }
+  body.page-template-page-landing .about-riff h3,
+  body.page-template-page-landing .mid-riff h3,
+  body.page-template-page-thank-you .about-riff h3,
+  body.page-template-page-thank-you .mid-riff h3 {
+    font-size: 24px;
+    line-height: normal;
+    padding: 10px;
+    height: auto;
+  }
+  body.page-template-page-landing .about-riff h3 sup,
+  body.page-template-page-landing .mid-riff h3 sup,
+  body.page-template-page-thank-you .about-riff h3 sup,
+  body.page-template-page-thank-you .mid-riff h3 sup {
+    font-size: 12px;
+  }
+  body.page-template-page-landing #call-now > div img,
+  body.page-template-page-thank-you #call-now > div img {
+    width: 333px;
+    height: 333px;
+    opacity: 0.25;
+  }
+  body.page-template-page-landing #call-now > div:first-child,
+  body.page-template-page-thank-you #call-now > div:first-child {
+    margin: -30px 0 0 -124px;
+  }
+  body.page-template-page-landing #call-now > div + div,
+  body.page-template-page-thank-you #call-now > div + div {
+    padding: 30px 20px;
+  }
+  body.page-template-page-landing #call-now > div h3,
+  body.page-template-page-thank-you #call-now > div h3 {
+    font-size: 30px;
+  }
+  body.page-template-page-landing #bottom-form .af-form .af-element,
+  body.page-template-page-thank-you #bottom-form .af-form .af-element {
+    width: auto;
+    margin: 0 0 30px 0;
+    float: none;
+  }
+  body.page-template-page-landing #bottom-form .af-form .af-element.buttonContainer,
+  body.page-template-page-thank-you #bottom-form .af-form .af-element.buttonContainer {
+    width: auto;
+  }
+  body.page-template-page-landing #bottom-form .af-form .af-element .af-textWrap,
+  body.page-template-page-thank-you #bottom-form .af-form .af-element .af-textWrap {
+    padding: 0 20px;
+  }
+  body.page-template-page-landing #bottom-form .af-form .af-element .af-textWrap input.text,
+  body.page-template-page-thank-you #bottom-form .af-form .af-element .af-textWrap input.text {
+    margin: 0 auto;
+  }
+  body.page-template-page-landing h2.schedule,
+  body.page-template-page-thank-you h2.schedule {
+    height: 62px;
+    padding-top: 20px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body.page-template-page-landing footer.lev2foot #bottom-form h2,
+  body.page-template-page-thank-you footer.lev2foot #bottom-form h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+  }
+  body.page-template-page-landing footer.lev2foot #bottom-form div,
+  body.page-template-page-thank-you footer.lev2foot #bottom-form div {
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+    width: 300px;
+  }
+  body.page-template-page-landing footer.lev2foot span img,
+  body.page-template-page-thank-you footer.lev2foot span img {
+    margin: 0 auto 20px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  body.page-template-page-landing #about .lebo-location,
+  body.page-template-page-thank-you #about .lebo-location {
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 180px;
+  }
+  body.page-template-page-landing #about .lebo-location i,
+  body.page-template-page-thank-you #about .lebo-location i {
+    margin: 0 0 10px 0 !important;
+  }
+  body.page-template-page-landing #about .circle,
+  body.page-template-page-thank-you #about .circle {
+    float: none;
+    margin: 0 auto 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body.page-template-page-landing #call-now br,
+  body.page-template-page-thank-you #call-now br {
+    display: block;
+  }
+  body.page-template-page-landing #call-now h4,
+  body.page-template-page-thank-you #call-now h4 {
+    font-size: 22px;
+  }
+  body.page-template-page-landing .vid-riff,
+  body.page-template-page-thank-you .vid-riff {
+    padding: 35px 10px 20px;
+  }
+  body.page-template-page-landing .vid-buttons a span,
+  body.page-template-page-thank-you .vid-buttons a span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body.page-template-page-landing header aside,
+  body.page-template-page-thank-you header aside {
+    margin: 12px 0 0 0;
+  }
+  body.page-template-page-landing header .phone span,
+  body.page-template-page-thank-you header .phone span {
+    font-size: 40px;
+  }
+  body.page-template-page-landing .sub-header,
+  body.page-template-page-thank-you .sub-header {
+    padding-bottom: 20px;
+  }
+  body.page-template-page-landing h1.hb-page-title,
+  body.page-template-page-thank-you h1.hb-page-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  body.page-template-page-landing h1.hb-page-title sup,
+  body.page-template-page-thank-you h1.hb-page-title sup {
+    font-size: 12px;
+    top: -1em;
+  }
+  body.page-template-page-landing .lev2 h2,
+  body.page-template-page-thank-you .lev2 h2 {
+    font-size: 28px;
+    padding: 30px 10px;
+    height: auto;
+  }
+}

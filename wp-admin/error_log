@@ -1,0 +1,1 @@
+[13-Jul-2015 17:55:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'TwitterFeed\TwitterFeed' not found in /home/gavinadmin/public_html/leboskincare.com/wp-includes/plugin.php on line 496
